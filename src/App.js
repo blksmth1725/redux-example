@@ -1,9 +1,13 @@
 import "./App.css";
+import Login from "./components/Login";
+import Profile from "./components/Profile";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <h1>Redux State Tracking Application</h1>
+      <Login />
+      <Profile />
     </div>
   );
 }
