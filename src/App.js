@@ -6,8 +6,10 @@ function App() {
   return (
     <div className="App">
       <h1>Redux State Tracking Application</h1>
-      <Login />
-      <Profile />
+      <div className="container">
+        <Profile />
+        <Login />
+      </div>
     </div>
   );
 }
